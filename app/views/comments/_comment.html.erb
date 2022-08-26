@@ -1,5 +1,5 @@
 <p>
-  <strong>Commenter:</strong>
+  <strong>Comentario:</strong>
   <%= comment.commenter %>
 </p>
 
@@ -9,9 +9,9 @@
 </p>
 
 <p>
-  <%= link_to "Destroy Comment", [comment.article, comment], data: {
+  <%= link_to "Eliminar comentario", [comment.article, comment], data: {
                 turbo_method: :delete,
-                turbo_confirm: "Are you sure?"
+                turbo_confirm: "Estas seguro de eliminar el comentario?"
               } %>
 </p>
 
